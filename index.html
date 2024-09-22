@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Products List</h1>
+    </header>
+    <main>
+        <!-- Filter Section -->
+        <section class="filteringSection">
+            <button onclick="filterProducts('All')">All</button>
+            <button onclick="filterProducts('Electronics')">Electronics</button>
+            <button onclick="filterProducts('Clothing')">Clothing</button>
+            <button onclick="filterProducts('Accessories')">Accessories</button>
+        </section>
+        <!-- //Filter Section -->
+        <!-- Product List Section -->
+        <section id="productsList" class="productsList"></section>
+        <!-- //Product List Section -->
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Products List. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+    <!-- //Footer Section -->
+</body>
+</html>
