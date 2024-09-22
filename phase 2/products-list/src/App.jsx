@@ -1,8 +1,12 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import "./index.css";
 export default function App() {
   return (
-    <div>
-      <h2>Hello World</h2>
-    </div>
+    <>
+      <Header />
+      <p>some text</p>
+      <Footer />
+    </>
   );
 }
