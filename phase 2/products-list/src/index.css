@@ -1,0 +1,32 @@
+:root {
+  --dark: #1f2937;
+  --grey-blue: #e5e7eb;
+  --light: #f9faf8;
+  --cta-bg-color: #3882f6;
+  --cta-hover-color: #1c60d8;
+
+  --extra-large-text-size: 48px;
+  --large-text-size: 36px;
+  --medium-text-size: 24px;
+  --small-text-size: 18px;
+
+  --extra-bold: 800;
+  --bold: 700;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light);
+  font-family: Arial, sans-serif;
+}
+
+main {
+  flex: 1;
+}
