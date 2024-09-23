@@ -1,5 +1,5 @@
 import "../styles/ProductList.css";
-import { string } from "prop-types";
+import PropTypes from "prop-types";
 export default function ProductList({ products }) {
   return (
     <div className="productsList">
@@ -15,5 +15,12 @@ export default function ProductList({ products }) {
   );
 }
 ProductList.propTypes = {
-  products: string.isRequired,
+  products: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      name: PropTypes.string.isRequired,
+      category: PropTypes.string.isRequired,
+      price: PropTypes.number.isRequired,
+    })
+  ).isRequired,
 };
