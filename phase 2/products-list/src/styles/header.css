@@ -1,0 +1,16 @@
+header {
+  background-color: var(--cta-bg-color);
+  color: var(--light);
+  text-align: center;
+  padding: 0.5rem;
+  font-size: var(--large-text-size);
+  font-weight: var(--extra-bold);
+  letter-spacing: 1px;
+  position: relative;
+}
+
+@media (max-width: 700px) {
+  header {
+    font-size: var(--medium-text-size);
+  }
+}
